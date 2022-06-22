@@ -7,8 +7,7 @@ import { Item } from '../components/models/item';
   styleUrls: ['./it3m.component.scss']
 })
 export class It3mComponent implements OnInit {
-@Input() item: Item = new Item();
-
+@Input() it3m: Item = new Item();
 
   constructor() { }
 

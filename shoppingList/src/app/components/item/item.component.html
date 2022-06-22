@@ -1,10 +1,4 @@
 <div>
-  <div *ngFor="let item of items">
-      {{item.title}}
-
-  </div>
-  <div *ngFor="let item of items">
-    {{item.price}}
-
-</div>
+  <app-it3m *ngFor="let item of items"[it3m]="item">
+  </app-it3m>
 </div>
